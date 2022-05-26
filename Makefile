@@ -1,4 +1,4 @@
-PACTICIPANT := "pactflow-example-bi-directional-provider-postman"
+PACTICIPANT := "provider-product-api"
 GITHUB_REPO := "pactflow/example-bi-directional-provider-postman"
 PACT_CLI="docker run --rm -v ${PWD}:${PWD} -e PACT_BROKER_BASE_URL -e PACT_BROKER_TOKEN pactfoundation/pact-cli:latest"
 
