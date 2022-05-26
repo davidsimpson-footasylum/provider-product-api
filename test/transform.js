@@ -1,4 +1,4 @@
-const collection = require('./PactflowProductsAPI.postman_collection.json');
+const collection = require('./pactflow_demo_collection.json');
 const { transpile } = require('postman2openapi');
 const fs = require('fs')
 
