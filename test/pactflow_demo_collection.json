@@ -98,7 +98,7 @@
 			]
 		},
 		{
-			"name": "GET /products/:id",
+			"name": "GET /product/:id",
 			"event": [
 				{
 					"listen": "test",
@@ -133,12 +133,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{host}}/products/{{id}}",
+					"raw": "{{host}}/product/{{id}}",
 					"host": [
 						"{{host}}"
 					],
 					"path": [
-						"products",
+						"product",
 						"{{id}}"
 					]
 				},
