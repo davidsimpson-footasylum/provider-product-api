@@ -133,12 +133,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{host}}/product/{{id}}",
+					"raw": "{{host}}/products/{{id}}",
 					"host": [
 						"{{host}}"
 					],
 					"path": [
-						"product",
+						"products",
 						"{{id}}"
 					]
 				},
